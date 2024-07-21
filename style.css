@@ -7,6 +7,10 @@ nav .navbar-nav li a{
     padding-left : 50px;
     padding-right : 20px;
 }
+@media screen and (min-width:480px){
+    #leftsidebar {width: 500px; float: left;}
+    #main {margin-left: 500px;}
+}
 .parallax {
 
     background-image: url("./images/interior-parallax.jpg");
@@ -93,4 +97,7 @@ section > img{
 section > p{
     text-align: justify;
     padding-top:30px;
+}
+.blank{
+    background-color: beige;
 }
