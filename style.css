@@ -7,7 +7,7 @@ nav .navbar-nav li a{
     padding-left : 50px;
     padding-right : 20px;
 }
-@media screen and (min-width:480px){
+@media screen,(min-width:480px) and (orientation:portrait){
     #leftsidebar {width: 500px; float: left;}
     #main {margin-left: 500px;}
 }
