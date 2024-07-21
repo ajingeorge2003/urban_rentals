@@ -1,0 +1,96 @@
+nav .navbar-nav li a{
+    margin:5px;
+    color: azure !important;
+    }
+.navbar-nav > li{
+    text-align:center;
+    padding-left : 50px;
+    padding-right : 20px;
+}
+.parallax {
+
+    background-image: url("./images/interior-parallax.jpg");
+  
+    min-height: 500px;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.products{
+    height: 200px;
+    width: 245px;
+    object-fit: cover;
+}
+.flex-container{
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction:row;
+    gap:20px
+}
+.flex-item{
+    background-color: beige;
+    flex: 30 30 30px;
+    box-shadow: 2px 2px 2px 2px grey;
+    margin: 10.5px;
+}
+figcaption{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:bold;
+    background-color: rgb(177, 205, 210);
+    text-align: center;
+}
+figure > p{
+    margin:12px;
+    color:rgb(2, 56, 68);
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+}
+footer{
+    font-size: larger;
+    text-align: center;
+    padding :50px;
+    color:azure;
+}
+footer > a{
+    color: white;
+    font-weight: lighter;
+}
+footer > a:hover{
+    color:aquamarine;
+}
+figure > a{
+    text-decoration:none;
+    color: beige;
+}
+figure > a:hover{
+    text-decoration:underline
+}
+.parallaxmain{
+
+    background-image: url("./images/interior-mainparallax.jpg");
+  
+    min-height: 500px;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.mail{
+    font-weight:lighter;
+}
+section{
+    background-image: url(./images/bg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+section > img{
+    padding-left:40%;
+    padding-right:auto;
+}
+section > p{
+    text-align: justify;
+    padding-top:30px;
+}
